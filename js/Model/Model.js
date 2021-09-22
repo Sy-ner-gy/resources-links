@@ -24,15 +24,14 @@ class Model extends Storage{
     }
     connect(){//Método que realiza a conexão no DB
         var firebaseConfig = {
-            apiKey: "AIzaSyBO5lyXGawbr2sLZuhWiXnhhztq8fsWwxg",
-            authDomain: "list-of-projects-cbf72.firebaseapp.com",
-            databaseURL: "https://list-of-projects-cbf72-default-rtdb.firebaseio.com",
-            projectId: "list-of-projects-cbf72",
-            storageBucket: "list-of-projects-cbf72.appspot.com",
-            messagingSenderId: "557716302386",
-            appId: "1:557716302386:web:a46f9ab2d5fdafafe62a2b",
-            measurementId: "G-WQPBTF584F"
-        };
+            apiKey: "AIzaSyA8BNlCtqkJDlZ0eTbsvUPv8SjqF1HS1x0",
+            authDomain: "links-c35c1.firebaseapp.com",
+            projectId: "links-c35c1",
+            storageBucket: "links-c35c1.appspot.com",
+            messagingSenderId: "824466057273",
+            appId: "1:824466057273:web:9117c0b9b09f77940945e8",
+            measurementId: "G-KXYD6LV2NE"
+          };
         firebase.initializeApp(firebaseConfig);
         firebase.analytics();
     }
